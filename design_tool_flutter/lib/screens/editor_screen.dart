@@ -11,7 +11,6 @@ class EditorScreen extends StatefulWidget {
 
 class _EditorScreenState extends State<EditorScreen> {
   double _zoom = 1.0;
-  Offset _panOffset = Offset.zero;
   final TransformationController _transformationController = TransformationController();
   String _selectedTool = 'select'; // select, rectangle, circle, text, etc.
   bool _isLayerPanelOpen = true;
